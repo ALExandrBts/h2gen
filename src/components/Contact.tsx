@@ -16,7 +16,7 @@ const Contact = () => {
           <p className="text-xl text-muted-foreground mb-8">
             Join us in revolutionizing river transport with sustainable power solutions
           </p>
-          
+
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             <div className="text-center">
               <p className="text-3xl font-bold text-primary">+10%</p>
@@ -35,7 +35,7 @@ const Contact = () => {
           <Button size="lg" className="text-lg px-8" asChild>
             <a href="mailto:legalgreenplanet@gmail.com" className="inline-flex items-center gap-2">
               <Mail className="w-5 h-5" />
-              legalgreenplanet@gmail.com
+              Email us
             </a>
           </Button>
 

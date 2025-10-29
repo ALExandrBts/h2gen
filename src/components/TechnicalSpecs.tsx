@@ -14,10 +14,10 @@ const TechnicalSpecs = () => {
 
         <Tabs defaultValue="panels" className="max-w-4xl mx-auto">
           <TabsList className="grid w-full grid-cols-4">
-            <TabsTrigger value="panels">Solar Panels</TabsTrigger>
-            <TabsTrigger value="hydrogen">H₂ Production</TabsTrigger>
+            <TabsTrigger value="panels">Solar <span className="hidden md:inline">Panels</span></TabsTrigger>
+            <TabsTrigger value="hydrogen"><span className="md:hidden">Hydrogen</span><span className="hidden md:inline">H₂ Production</span></TabsTrigger>
             <TabsTrigger value="battery">Battery</TabsTrigger>
-            <TabsTrigger value="engine">Engine Boost</TabsTrigger>
+            <TabsTrigger value="engine"><span className="hidden md:inline">Engine</span> Boost</TabsTrigger>
           </TabsList>
 
           <TabsContent value="panels">
