@@ -49,27 +49,27 @@ const Economics = () => {
           <div className="space-y-4">
             <div className="flex justify-between items-center py-3 border-b border-border">
               <span className="text-lg">Solar Panels (500 × 400W)</span>
-              <span className="text-lg font-semibold text-right">$60-80k</span>
+              <span className="text-lg font-semibold text-right text-nowrap">$60-80k</span>
             </div>
             <div className="flex justify-between items-center py-3 border-b border-border">
               <span className="text-lg">H₂ Electrolysis System</span>
-              <span className="text-lg font-semibold text-right">$40-60k</span>
+              <span className="text-lg font-semibold text-right text-nowrap">$40-60k</span>
             </div>
             <div className="flex justify-between items-center py-3 border-b border-border">
               <span className="text-lg">LiFePO4 Battery (300 kWh)</span>
-              <span className="text-lg font-semibold text-right">$30-40k</span>
+              <span className="text-lg font-semibold text-right text-nowrap">$30-40k</span>
             </div>
             <div className="flex justify-between items-center py-3 border-b border-border">
               <span className="text-lg">Ultrasonic Cooling System</span>
-              <span className="text-lg font-semibold text-right">$10-15k</span>
+              <span className="text-lg font-semibold text-right text-nowrap">$10-15k</span>
             </div>
             <div className="flex justify-between items-center py-3 border-b border-border">
               <span className="text-lg">Installation & Integration</span>
-              <span className="text-lg font-semibold text-right">$10-15k</span>
+              <span className="text-lg font-semibold text-right text-nowrap">$10-15k</span>
             </div>
             <div className="flex justify-between items-center pt-4">
               <span className="text-xl font-bold">Total Investment</span>
-              <span className="text-2xl font-bold text-primary text-right">$150-200k</span>
+              <span className="text-2xl font-bold text-primary text-right text-nowrap">$150-200k</span>
             </div>
           </div>
         </Card>

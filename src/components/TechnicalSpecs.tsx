@@ -26,19 +26,19 @@ const TechnicalSpecs = () => {
               <div className="space-y-3">
                 <div className="flex justify-between py-2 border-b border-border">
                   <span className="font-medium">Typical Barge Size:</span>
-                  <span className="text-muted-foreground">100m × 10-15m (1000-1500 m²)</span>
+                  <span className="text-muted-foreground text-right">100m × 10-15m (1000-1500 m²)</span>
                 </div>
                 <div className="flex justify-between py-2 border-b border-border">
                   <span className="font-medium">Panel Configuration:</span>
-                  <span className="text-muted-foreground">500 panels × 400W (1000 m²)</span>
+                  <span className="text-muted-foreground text-right">500 panels × 400W (1000 m²)</span>
                 </div>
                 <div className="flex justify-between py-2 border-b border-border">
                   <span className="font-medium">Peak Power:</span>
-                  <span className="text-muted-foreground">200 kW</span>
+                  <span className="text-muted-foreground text-right">200 kW</span>
                 </div>
                 <div className="flex justify-between py-2">
                   <span className="font-medium">Average Daily Output:</span>
-                  <span className="text-muted-foreground">~50 kWh (25% of peak)</span>
+                  <span className="text-muted-foreground text-right">~50 kWh (25% of peak)</span>
                 </div>
               </div>
             </Card>
@@ -77,23 +77,23 @@ const TechnicalSpecs = () => {
               <div className="space-y-3">
                 <div className="flex justify-between py-2 border-b border-border">
                   <span className="font-medium">Storage Capacity:</span>
-                  <span className="text-muted-foreground">300 kWh</span>
+                  <span className="text-muted-foreground text-right">300 kWh</span>
                 </div>
                 <div className="flex justify-between py-2 border-b border-border">
                   <span className="font-medium">Buffer Duration:</span>
-                  <span className="text-muted-foreground">6-12 hours</span>
+                  <span className="text-muted-foreground text-right">6-12 hours</span>
                 </div>
                 <div className="flex justify-between py-2 border-b border-border">
                   <span className="font-medium">Cycle Life:</span>
-                  <span className="text-muted-foreground">5000+ cycles</span>
+                  <span className="text-muted-foreground text-right">5000+ cycles</span>
                 </div>
                 <div className="flex justify-between py-2 border-b border-border">
                   <span className="font-medium">Operating Range:</span>
-                  <span className="text-muted-foreground">-20°C to +60°C</span>
+                  <span className="text-muted-foreground text-right">-20°C to +60°C</span>
                 </div>
                 <div className="flex justify-between py-2">
                   <span className="font-medium">Integration:</span>
-                  <span className="text-muted-foreground">Panels → Battery → Electrolysis/Cooling</span>
+                  <span className="text-muted-foreground text-right">Panels → Battery → Electrolysis/Cooling</span>
                 </div>
               </div>
             </Card>
